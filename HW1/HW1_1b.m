@@ -16,6 +16,7 @@ end
 
 [~, index] = min(table, [], 3);
 
+
 for u = 1 : m
      result(u, :, :) = d_colors(index(u, :), :);
 end
