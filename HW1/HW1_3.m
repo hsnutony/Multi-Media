@@ -9,7 +9,6 @@ img = im2double(img);
 
 NN_img = resizedImage_NN(img, 4);
 figure, imshow(NN_img);
-
 %%%Bilinear%%%
 
 Bi_img =  resizedImage_bilinear(img, 4);

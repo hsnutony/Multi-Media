@@ -6,8 +6,11 @@ img = im2double(img);
 
 
 [my_DCT] = myDCT2(img, 8);
-
 figure, imshow(my_DCT);
 
-s_DCT = myiDCT2(my_DCT);
-figure, imshow(s_DCT);
+
+5ml_DCT = dct2(img);
+figure, imshow(ml_DCT);
+
+%my_DCT = myiDCT2(img);
+%figure, imshow(my_DCT);
